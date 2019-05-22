@@ -1,0 +1,11 @@
+.HobbyColumn {
+  max-height: 100%;
+  overflow-y: scroll;
+  flex-basis: 70%;
+}
+
+.HobbyColumn--empty {
+  background-color: #607d8b;
+  color: white;
+}
+

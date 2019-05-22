@@ -1,0 +1,33 @@
+.Cell {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 1px solid black;
+  cursor: pointer;
+
+  &:hover {
+    background-color: orange;
+    opacity: 0.6;
+    color: white;
+  }
+}
+
+.Cell--selected {
+  background-color: orange;
+  color: white;
+  cursor: not-allowed;
+
+  &:hover {
+    background-color: orange;
+  }
+}
+
+.Cell--input {
+  padding: 0;
+  display: flex;
+  height: 35px;
+
+  &:hover {
+    opacity: 1;
+  }
+}

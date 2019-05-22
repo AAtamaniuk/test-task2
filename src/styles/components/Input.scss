@@ -1,0 +1,17 @@
+.Input {
+  flex-grow: 1;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff;
+  padding-left: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Input--empty {
+  color: grey;
+}
+
+.Input_option {
+  color: black;
+}
